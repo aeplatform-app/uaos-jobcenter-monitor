@@ -2,29 +2,14 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": true,
-  "buildCommand": "echo static",
-  "outputDirectory": "public",
+  "buildCommand": "node build-static.js",
+  "outputDirectory": "dist",
   "installCommand": "echo no-install",
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/jobcenter",
-      "destination": "/jobcenter/index.html"
-    },
-    {
-      "source": "/jobcenter/",
-      "destination": "/jobcenter/index.html"
-    },
-    {
-      "source": "/status",
-      "destination": "/status/index.html"
-    },
-    {
-      "source": "/status/",
-      "destination": "/status/index.html"
-    }
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/jobcenter", "destination": "/jobcenter/index.html" },
+    { "source": "/jobcenter/", "destination": "/jobcenter/index.html" },
+    { "source": "/status", "destination": "/status/index.html" },
+    { "source": "/status/", "destination": "/status/index.html" }
   ]
 }
