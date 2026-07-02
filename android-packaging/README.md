@@ -1,0 +1,1 @@
+﻿# UAOS Android Packaging - Capacitor shell later.

@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="15">
+<title>UAOS Command Center</title>
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Segoe UI,Arial,sans-serif;
+background:
+radial-gradient(circle at top left,#5b2cff55,transparent 30%),
+radial-gradient(circle at top right,#00c8ff44,transparent 30%),
+#050616;
+color:white;
+padding:28px;
+}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+h1{font-size:44px;margin:0}
+.badge{padding:10px 16px;border:1px solid #ffffff33;border-radius:999px;background:#11162dcc}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:#11162dcc;border:1px solid #ffffff22;border-radius:22px;padding:22px;box-shadow:0 20px 60px #0005}
+.big{font-size:30px;font-weight:900}
+.ok{color:#34ff91}.warn{color:#ffd166}.bad{color:#ff5c7a}
+.progress{height:12px;background:#070a15;border-radius:999px;overflow:hidden;margin-top:12px}
+.bar{height:100%;background:linear-gradient(90deg,#2f82ff,#d94cff);border-radius:999px}
+table{width:100%;border-collapse:collapse;background:#0c1022;border-radius:16px;overflow:hidden}
+td,th{padding:14px;border-bottom:1px solid #ffffff12;text-align:left}
+pre{white-space:pre-wrap;background:#080b18;padding:18px;border-radius:14px;max-height:230px;overflow:auto}
+a{color:#80dfff}
+.section{margin-top:28px}
+ul{line-height:1.9}
+.pill{display:inline-block;padding:7px 11px;border-radius:999px;background:#0c1022;border:1px solid #ffffff22;margin:4px}
+@media(max-width:1000px){.grid{grid-template-columns:1fr}.header{display:block}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>🎛️ UAOS Command Center</h1>
+    <p>Autonomous launch monitor · Auto-refresh every 15 seconds</p>
+  </div>
+  <div class="badge">Updated: 06/04/2026 07:34:33</div>
+</div>
+
+<div class="card">
+<h2>Overall Launch Readiness</h2>
+<div class="big">100%</div>
+<div class="progress"><div class="bar" style="width:100%"></div></div>
+</div>
+
+<div class="section grid">
+<div class="card"><h2>Website</h2><div class="big ok">READY</div><div class="progress"><div class="bar" style="width:100%"></div></div></div>
+<div class="card"><h2>Logo</h2><div class="big ok">READY</div><div class="progress"><div class="bar" style="width:100%"></div></div></div>
+<div class="card"><h2>Videos</h2><div class="big ok">4 MP4</div><div class="progress"><div class="bar" style="width:100%"></div></div></div>
+<div class="card"><h2>PayPal</h2><div class="big ok">READY</div><div class="progress"><div class="bar" style="width:100%"></div></div></div>
+
+<div class="card"><h2>Android/iOS</h2><div class="big ok">READY</div><div class="progress"><div class="bar" style="width:100%"></div></div></div>
+<div class="card"><h2>PWA</h2><div class="big ok">READY</div><div class="progress"><div class="bar" style="width:100%"></div></div></div>
+<div class="card"><h2>Monitor</h2><div class="big ok">READY</div><div class="progress"><div class="bar" style="width:100%"></div></div></div>
+<div class="card"><h2>Social Launch</h2><div class="big warn">MANUAL</div><div class="progress"><div class="bar" style="width:65%"></div></div></div>
+</div>
+
+<div class="section card">
+<h2>Live Links</h2>
+<span class="pill"><a href="https://sari-raslan.github.io/universal-arranger-os/">Website</a></span>
+<span class="pill"><a href="https://www.paypal.com/ncp/payment/4PHMPZL66YEG8">PayPal Pro</a></span>
+<span class="pill"><a href="https://github.com/Sari-raslan/universal-arranger-os">GitHub</a></span>
+<span class="pill"><a href="https://www.tiktok.com/@aeplatformapp">TikTok</a></span>
+<span class="pill"><a href="https://x.com/aeplatformapp">X</a></span>
+<span class="pill"><a href="https://www.youtube.com/@aeplatformapp">YouTube</a></span>
+</div>
+
+<div class="section card">
+<h2>Agents / PowerShell Processes</h2>
+<pre>
+   Id      CPU StartTime           ProcessName
+   --      --- ---------           -----------
+16140   0,8125 04.06.2026 07:34:16 powershell 
+16732   0,8125 04.06.2026 07:34:14 powershell 
+17072  0,96875 04.06.2026 07:34:15 powershell 
+17556 0,984375 04.06.2026 07:34:18 powershell 
+18216    0,625 04.06.2026 07:34:28 powershell 
+
+
+</pre>
+</div>
+
+<div class="section card">
+<h2>Remaining Work</h2>
+<ul>
+<li>Upload best videos manually to TikTok / YouTube Shorts / X</li>
+<li>Finish DNS for aeplatform.app</li>
+<li>Create real backend auth</li>
+<li>Connect PayPal webhook verification</li>
+<li>Build real cloud Voice-to-MIDI API</li>
+<li>Prepare Google Play and Apple Developer accounts</li>
+</ul>
+</div>
+
+<div class="section card">
+<h2>Git Status</h2>
+<pre> M android/app/build.gradle  M logs/single-master-agent.log  M monitor/agents-dashboard.html  M node_modules/@capacitor/android/capacitor/build.gradle ?? android/.idea/appInsightsSettings.xml ?? logs/resume-after-restart.log ?? logs/uaos-master.log ?? monitor/dashboard.html ?? monitor/runtime-dashboard.html ?? node_modules/@capacitor/android/capacitor/build/ ?? node_modules/@capacitor/android/capacitor/src/main/cpp/ ?? reports/UAOS_RESUME_REPORT.txt ?? reports/UAOS_STATUS.txt ?? startup/resume-after-restart.ps1 ?? startup/uaos-master-background.ps1</pre>
+</div>
+
+<div class="section card">
+<h2>Last Commit</h2>
+<pre>ab60200 - UAOS autonomous maintenance cycle</pre>
+</div>
+
+<div class="section card">
+<h2>Latest GitHub Runs</h2>
+<pre>completed	success	UAOS autonomous maintenance cycle	UAOS Media Ops CI	master	push	26920956276	8s	2026-06-04T00:01:59Z completed	success	UAOS autonomous maintenance cycle	Deploy UAOS Site	master	push	26920956263	21s	2026-06-04T00:01:59Z completed	success	Improve UAOS page with live demo and working navigation	Deploy UAOS Site	master	push	26920809966	14s	2026-06-03T23:58:34Z completed	success	Improve UAOS page with live demo and working navigation	UAOS Media Ops CI	master	push	26920809940	9s	2026-06-03T23:58:34Z completed	success	Restore stable working UAOS website	UAOS Media Ops CI	master	push	26919750830	9s	2026-06-03T23:33:00Z completed	success	Restore stable working UAOS website	Deploy UAOS Site	master	push	26919750822	16s	2026-06-03T23:33:00Z</pre>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+﻿Universal Arranger OS helps musicians, producers, singers, beatmakers, and creators turn musical ideas into structured production workflows.
+
+Features:
+- Voice-to-MIDI concept workflow
+- Chord generation roadmap
+- AI arrangement roadmap
+- DAW export roadmap
+- Multilingual support
+- Music-focused interface
+
+Early Access MVP by AE Platform.
+

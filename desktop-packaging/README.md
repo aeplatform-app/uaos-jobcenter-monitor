@@ -1,0 +1,1 @@
+﻿# UAOS Desktop Packaging - unsigned local installer only.

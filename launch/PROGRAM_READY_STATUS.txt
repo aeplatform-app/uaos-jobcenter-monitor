@@ -1,0 +1,17 @@
+﻿UAOS PROGRAM BUILD STATUS
+
+Website:
+https://AE Platform.github.io/universal-arranger-os/
+
+Payment:
+https://www.paypal.com/ncp/payment/ZB63CA66C98AN
+
+Videos:
+ai-videos/output_v2/
+
+Main repo:
+https://github.com/AE Platform/universal-arranger-os
+
+Status:
+MVP launch package built and ready.
+

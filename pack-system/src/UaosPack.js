@@ -1,0 +1,1 @@
+﻿export function validateUaosPack(pack){const required=["packId","format","targetKeyboards"];const missing=required.filter(k=>!pack?.[k]);return{ok:missing.length===0,missing}}

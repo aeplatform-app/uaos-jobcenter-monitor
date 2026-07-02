@@ -1,0 +1,11 @@
+﻿{
+  "date": "2026-07-01",
+  "currency": "EUR",
+  "items": [
+    { "name": "software/services reserve", "min": 30, "max": 80 },
+    { "name": "internet/electricity proportion", "min": 20, "max": 50 },
+    { "name": "backup/storage", "min": 5, "max": 20 },
+    { "name": "accounting/admin reserve", "min": 20, "max": 60 }
+  ],
+  "totalMonthlyPlanning": { "min": 75, "max": 210 }
+}

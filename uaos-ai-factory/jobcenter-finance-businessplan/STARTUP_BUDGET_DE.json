@@ -1,0 +1,12 @@
+﻿{
+  "date": "2026-07-01",
+  "currency": "EUR",
+  "items": [
+    { "name": "Laptop / Workstation", "min": 1500, "max": 2500 },
+    { "name": "External monitor", "min": 150, "max": 300 },
+    { "name": "Keyboard / mouse / storage / accessories", "min": 150, "max": 300 },
+    { "name": "Software / development reserve", "min": 300, "max": 600 },
+    { "name": "Documentation / presentation / admin reserve", "min": 100, "max": 250 }
+  ],
+  "totalRecommendedSupport": { "min": 2200, "max": 3950 }
+}

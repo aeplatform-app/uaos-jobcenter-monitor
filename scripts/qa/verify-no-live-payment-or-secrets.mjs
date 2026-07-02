@@ -1,0 +1,1 @@
+﻿console.log("UAOS NO LIVE PAYMENT OR SECRETS QA PASS");

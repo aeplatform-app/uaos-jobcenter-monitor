@@ -1,0 +1,1 @@
+﻿AI planner scaffold only. No automatic code generation without manual review.

@@ -1,0 +1,1 @@
+﻿export function selectSample({samples=[],note,velocity=100,articulation="sustain",maqam=null}){return samples.find(s=>s.note===note&&velocity>=(s.velocityMin??0)&&velocity<=(s.velocityMax??127)&&(!s.articulation||s.articulation===articulation)&&(!s.maqamHint||!maqam||s.maqamHint===maqam))||samples.find(s=>s.note===note)||null}

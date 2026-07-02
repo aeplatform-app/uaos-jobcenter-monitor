@@ -1,0 +1,7 @@
+﻿moviepy==1.0.3
+edge-tts
+numpy
+pillow
+imageio
+imageio-ffmpeg
+

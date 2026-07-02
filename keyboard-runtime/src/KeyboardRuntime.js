@@ -1,0 +1,1 @@
+﻿export class KeyboardRuntime{constructor(){this.profile=null;this.pack=null}loadProfile(p){this.profile=p;return this.status()}loadPack(p){this.pack=p;return this.status()}status(){return{ready:!!this.profile,profile:this.profile,packId:this.pack?.packId||null}}}

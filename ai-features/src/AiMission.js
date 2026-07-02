@@ -1,0 +1,1 @@
+﻿export function createAiMission({title,priority="high",area="uaos"}){return{title,priority,area,status:"planned",safety:"manual-review-required"}}

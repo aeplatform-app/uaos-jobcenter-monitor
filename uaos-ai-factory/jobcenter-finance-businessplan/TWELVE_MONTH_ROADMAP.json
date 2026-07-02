@@ -1,0 +1,11 @@
+﻿{
+  "date": "2026-07-01",
+  "quarters": [
+    { "quarter": "Q1", "focus": "hardware + stable local development + evidence" },
+    { "quarter": "Q2", "focus": "UI/tooling + monitor + documentation" },
+    { "quarter": "Q3", "focus": "library factory/oriental strings planning + pilot demos" },
+    { "quarter": "Q4", "focus": "validation + safe product direction" }
+  ],
+  "productionClaim": false,
+  "keyboardNativeOutput": false
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "uaos-jobcenter-ppt-visual-qa-status-v2",
+  "status": "PASS",
+  "pptx": "uaos-ai-factory/jobcenter-send-ready/UAOS_JOBCENTER_PRESENTATION_2026-07-01_DE.pptx",
+  "fallbackPdf": "uaos-ai-factory/jobcenter-send-ready/ppt-visual-proof/UAOS_JOBCENTER_PRESENTATION_2026-07-01_DE_PRESENTATION_FALLBACK.pdf",
+  "visualProofFolder": "uaos-ai-factory/jobcenter-send-ready/ppt-visual-proof",
+  "slidePngCount": 10,
+  "allPngsNonEmpty": true,
+  "removedJobcenterLinkPresent": false,
+  "monitorLabelPresent": true,
+  "monitorMarkedNachgereicht": true,
+  "noActivePublicProjectLink": true,
+  "germanUmlautsPreserved": true,
+  "mojibakeMarkerPass": true,
+  "forbiddenWordingPass": true,
+  "failures": [],
+  "safety": {
+    "localOnly": true,
+    "pushDeployVercelPayment": false,
+    "keyboardOutputTransfer": false,
+    "appJsxTouched": false
+  }
+}
