@@ -1,15 +1,30 @@
-
-  {"version": 2,
-  "framework": null,
-  "buildCommand": "npm run build --prefix uaos-live-clean",
-  "outputDirectory": "uaos-live-clean/dist",
-  "installCommand": "npm run setup",
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "buildCommand": "echo static",
+  "outputDirectory": "public",
+  "installCommand": "echo no-install",
   "rewrites": [
-    { "source": "/api/status", "destination": "/api/status.js" },
-    { "source": "/api/presets", "destination": "/api/presets.js" },
-    { "source": "/api/song-generate", "destination": "/api/song-generate.js" },
-    { "source": "/api/midi-export", "destination": "/api/midi-export.js" },
-    { "source": "/api/release-report", "destination": "/api/release-report.js" },
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/jobcenter",
+      "destination": "/jobcenter/index.html"
+    },
+    {
+      "source": "/jobcenter/",
+      "destination": "/jobcenter/index.html"
+    },
+    {
+      "source": "/status",
+      "destination": "/status/index.html"
+    },
+    {
+      "source": "/status/",
+      "destination": "/status/index.html"
+    }
   ]
 }
