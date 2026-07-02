@@ -3,8 +3,8 @@
   "cleanUrls": true,
   "trailingSlash": true,
   "buildCommand": "node build-static.js",
-  "outputDirectory": "dist",
   "installCommand": "echo no-install",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
     { "source": "/jobcenter", "destination": "/jobcenter/index.html" },
